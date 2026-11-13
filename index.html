@@ -11,6 +11,27 @@
     <center>
         <h1>Javascript Pong</h1>
     </center>
+    <div id="scoreboard">
+        <span id="player1Score">0</span>
+        <span id="player2Score">0</span>
+    </div>
+
+    <div id="game">
+        <div id="centerLine"></div>
+
+        <div id="paddle1" class="paddle"></div>
+        <div id="paddle2" class="paddle"></div>
+
+        <div id="ball"></div>
+    </div>
+    <div id="levelSelector">
+    <button onclick="setLevel(1)">Level 1 - Easy</button>
+    <button onclick="setLevel(2)">Level 2 - Medium</button>
+    <button onclick="setLevel(3)">Level 3 - Hard</button>
+    </div>
+    <button id="restart">Reset Game</button>
+
+    <script src="script/script.js"></script>
 
 <footer>
   <p>Game by: Laith Alshara<br> Assessment for Game On Class</p>
